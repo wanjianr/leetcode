@@ -1,4 +1,7 @@
-package com.douye.tree;
+package com.douye.tree.binaryTree;
+
+import com.douye.tree.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

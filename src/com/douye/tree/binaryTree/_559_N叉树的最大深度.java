@@ -1,4 +1,6 @@
-package com.douye.tree;
+package com.douye.tree.binaryTree;
+
+import com.douye.tree.Node;
 
 import java.util.LinkedList;
 import java.util.Queue;

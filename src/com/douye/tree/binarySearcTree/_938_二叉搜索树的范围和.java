@@ -1,4 +1,6 @@
-package com.douye.tree;
+package com.douye.tree.binarySearcTree;
+
+import com.douye.tree.TreeNode;
 
 public class _938_二叉搜索树的范围和 {
     public int rangeSumBST(TreeNode root, int L, int R) {
