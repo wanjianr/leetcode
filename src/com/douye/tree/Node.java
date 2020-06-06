@@ -2,7 +2,7 @@ package com.douye.tree;
 
 import java.util.List;
 
-class Node {
+public class Node {
     public int val;
     public List<Node> children;
 
