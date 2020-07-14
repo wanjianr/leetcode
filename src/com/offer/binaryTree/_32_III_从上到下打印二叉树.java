@@ -9,10 +9,10 @@ import java.util.*;
 public class _32_III_从上到下打印二叉树 {
 
 
-    public List<List<Integer>> levelOrder1(TreeNode root) {
+    public List<List<Integer>> levelOrder2(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if (root == null) return lists;
-        List<Integer> list = new ArrayList<>();
+        LinkedList<Integer> list = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         TreeNode node = root;
         queue.offer(node);
@@ -21,14 +21,17 @@ public class _32_III_从上到下打印二叉树 {
         while (!queue.isEmpty()) {
             node = queue.poll();
             levelSize --;
-            list.add(node.val);
-
+            if (height % 2 == 0)
+                list.addLast(node.val);
+            else
+                list.addFirst(node.val);
+            if (node.left != null) queue.offer(node.left);
+            if (node.right != null) queue.offer(node.right);
             if (levelSize == 0) {
                 levelSize = queue.size();
                 height ++;
-                if (height % 2 == 0) Collections.reverse(list);
                 lists.add(list);
-                list = new ArrayList<>();
+                list = new LinkedList<>();
             }
         }
         return lists;
