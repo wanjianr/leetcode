@@ -2,6 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe852dd-4c33-4306-baa2-bbc2f0b39690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/_15_三数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/_5453_所有蚂蚁掉下来前的最后一刻.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/_5455_最多K次交换相邻数位后得到的最小整数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_1025_除数博弈.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_121_买卖股票的最佳时机.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_198_打家劫舍.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_303_区域和检索_数组不可变.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_392_判断子序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_53_最大子序和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/easy/_70_爬楼梯.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_120_三角形最小路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_1292_元素和小于等于阈值的正方形的最大边长.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_1314_矩阵区域和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_322_零钱兑换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_338_比特位计数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_343_整数拆分.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/dynanicProgramming/medium/_64_最小路径和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/hot100/easy/_136_只出现一次的数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/hot100/easy/_1_两数之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/hot100/easy/_3_无重复字符的最长子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/hot100/easy/_4_寻找两个正序数组的中位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/hot100/easy/_5_最长回文子串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/linkedlist/_142_环形链表II.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binarySearcTree/_501_二叉搜索树中的众数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binarySearcTree/_538_把二叉搜索树转换为累加树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binarySearcTree/_653_两数之和IV_输入BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_100_相同的树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_110_平衡二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_111_二叉树的最小深度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_112_路径总和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_404_左叶子之和.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_437_路径总和III.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_543_二叉树的直径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_563_二叉树的坡度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_572_另一个树的子树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_606_根据二叉树创建字符串.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_872_叶子相似的树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/binaryTree/_993_二叉树的堂兄弟节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/connotSolve/_671_二叉树中第二小的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/douye/tree/connotSolve/_687_最长同值路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_10_II_青蛙跳台阶问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_10_I_斐波那契数列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_12_矩阵中的路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_13_机器人的运动范围.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_14_II_剪绳子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_14_I_剪绳子.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_15_二进制中1的个数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_16_数值的整数次方.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/_17_打印从1到最大的n位数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/array/_03_数组中重复的数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/array/_04_二维数组中的查找.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/array/_05_替换空格.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/array/_11_旋转数组的最小数字.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_07_重建二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_27_二叉树的镜像.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_28_对称的二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_32_III_从上到下打印二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_32_II_从上到下打印二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_32_I_从上到下打印二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_33_二叉搜索树的后序遍历序列.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_34_二叉树中和为某一值的路径.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_36_二叉搜索树与双向链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_37_序列化二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_54_二叉搜索树的第k大节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_55_II_平衡二叉树.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_55_I_二叉树的深度.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_68_II_二叉树的最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/binaryTree/_68_I_二叉搜索树的最近公共祖先.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_06_从尾到头打印链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_18_删除链表的节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_22_链表中倒数第k个节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_24_反转链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_25_合并两个排序的链表.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/linkedlist/_52_两个链表的第一个公共节点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/com/offer/stack_queue/_09_用两个栈实现队列.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/offer/_12_矩阵中的路径.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/offer/_13_机器人的运动范围.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/offer/_14_II_剪绳子.java" afterDir="false" />
@@ -189,7 +268,7 @@
       <workItem from="1595060448499" duration="5744000" />
       <workItem from="1595296651150" duration="3864000" />
       <workItem from="1595384980724" duration="7604000" />
-      <workItem from="1595559703600" duration="4033000" />
+      <workItem from="1595559703600" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="2020-05-23 22:03:26">
       <created>1590242615355</created>
@@ -319,26 +398,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="477" y="67" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590217347551" />
-    <state width="1876" height="337" key="GridCell.Tab.0.bottom" timestamp="1595574406543">
+    <state width="1876" height="152" key="GridCell.Tab.0.bottom" timestamp="1595575294962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1136" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593094886806" />
-    <state width="1876" height="337" key="GridCell.Tab.0.bottom/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595574406543" />
-    <state width="1876" height="337" key="GridCell.Tab.0.center" timestamp="1595574406543">
+    <state width="1876" height="152" key="GridCell.Tab.0.bottom/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595575294962" />
+    <state width="1876" height="152" key="GridCell.Tab.0.center" timestamp="1595575294962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1136" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593094886806" />
-    <state width="1876" height="337" key="GridCell.Tab.0.center/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595574406543" />
-    <state width="1876" height="337" key="GridCell.Tab.0.left" timestamp="1595574406543">
+    <state width="1876" height="152" key="GridCell.Tab.0.center/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595575294962" />
+    <state width="1876" height="152" key="GridCell.Tab.0.left" timestamp="1595575294962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1136" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593094886806" />
-    <state width="1876" height="337" key="GridCell.Tab.0.left/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595574406543" />
-    <state width="1876" height="337" key="GridCell.Tab.0.right" timestamp="1595574406543">
+    <state width="1876" height="152" key="GridCell.Tab.0.left/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595575294962" />
+    <state width="1876" height="152" key="GridCell.Tab.0.right" timestamp="1595575294962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1136" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593094886806" />
-    <state width="1876" height="337" key="GridCell.Tab.0.right/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595574406543" />
+    <state width="1876" height="152" key="GridCell.Tab.0.right/1920.105.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1595575294962" />
     <state width="1876" height="286" key="GridCell.Tab.1.bottom" timestamp="1595404797705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
