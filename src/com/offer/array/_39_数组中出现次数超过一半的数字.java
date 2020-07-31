@@ -45,13 +45,77 @@ public class _39_数组中出现次数超过一半的数字 {
 //        }
 
         // 基于二分搜索的插入排序
-        for (int i = 1; i < nums.length; i++) {
-            insert(nums,i,binarySearch(nums,i));
-        }
+//        for (int i = 1; i < nums.length; i++) {
+//            insert(nums,i,binarySearch(nums,i));
+//        }
+//
+
+        // 归并排序
+//        sort(nums,0,nums.length);
+
+        // 快速排序
+        quickSort(nums, 0, nums.length);
 
         return nums;
     }
 
+    private void quickSort(int[] nums, int begin, int end) {
+        if (end - begin < 2) return;
+        int mid = quick(nums,begin,end);
+        quickSort(nums,begin,mid);
+        quickSort(nums,mid+1,end);
+    }
+
+    private int quick(int[] nums, int begin, int end) {
+        swap(nums,begin,begin+(int)(Math.random()*(end-begin)));
+        //if (end - begin < 2) return 0;
+        int privot = nums[begin];
+        end--;
+        while (begin < end) {
+            while (begin < end) {
+                if (nums[end] > privot) {
+                    end --;
+                } else {
+                    nums[begin++] = nums[end];
+                    break;
+                }
+            }
+
+            while (begin < end) {
+                if (nums[begin] < privot) {
+                    begin ++;
+                } else {
+                    nums[end--] = nums[begin];
+                    break;
+                }
+            }
+        }
+        nums[begin] = privot;
+        return begin;
+    }
+
+    private void sort(int[] nums, int begin, int end) {
+        if (end - begin < 2) return;
+        int mid = (begin + end) / 2;
+        sort(nums, begin,mid);
+        sort(nums,mid, end);
+        merge(nums,begin,mid,end);
+    }
+
+    private void merge(int[] nums, int begin, int mid, int end) {
+        int[] leftArray = new int[nums.length >> 1];
+        int li = 0, le = mid-begin, ri = mid, re = end, ai = begin;
+        for (int i = li; i < le; i++) {
+            leftArray[i] = nums[i+begin];
+        }
+        while (li < le) {
+            if (ri < re && leftArray[li] > nums[ri]) {
+                nums[ai++] = nums[ri++];
+            } else {
+                nums[ai++] = leftArray[li++];
+            }
+        }
+    }
 
     /**
      * 交换数组nums中的两个元素
