@@ -1,9 +1,8 @@
-package com;
+package com.bishiti;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
-import java.util.Scanner;
 
 class TreeNode {
     int val;
@@ -14,7 +13,7 @@ class TreeNode {
     }
 }
 
-public class Test {
+public class _字节跳动一面算法题 {
     public boolean isBanlance(TreeNode root) {
         if (root == null) return true;
         return Math.abs(getDepth(root.left)-getDepth(root.right)) < 2 && isBanlance(root.left) && isBanlance(root.right);

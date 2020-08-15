@@ -1,6 +1,7 @@
 package com.douye.tree.binaryTree;
 
 import com.douye.tree.TreeNode;
+import sun.reflect.generics.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,24 @@ public class _94_二叉树的中序遍历 {
                 node = stack.pop();
                 list.add(node.val);
                 node = node.right;
+            }
+        }
+        return list;
+    }
+
+    public List<Integer> coloeInorder(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Stack<Object> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Object object = stack.pop();
+            if (object instanceof TreeNode) {
+                TreeNode inorder = (TreeNode) object;
+                stack.push(inorder.right);
+                stack.push(inorder.val);
+                stack.push(inorder.left);
+            } else if (object instanceof Integer) {
+                list.add((Integer) object);
             }
         }
         return list;
